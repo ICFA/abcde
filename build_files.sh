@@ -2,6 +2,8 @@ pip install -r require.txt
 
 python manage.py collectstatic --no-input
 
+python manage.py createsuperuser
+
 # python manage.py makemigrations
 
 # python manage.py migrate
