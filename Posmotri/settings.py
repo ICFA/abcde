@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'Posmotri.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://post:SLbLcuqR7q1ePlLZ8j0rOXUbdnWoHrBf@dpg-cpdgt87109ks73ehei20-a.frankfurt-postgres.render.com/flai_db_lxoj',
+        default='postgres://admin:bP0Ice5k8tcKBEIkLuRngsS9E79hhGkn@dpg-cpm8e52j1k6c73a42520-a.frankfurt-postgres.render.com/posmotrifilms',
         conn_max_age=600
     )
 }
