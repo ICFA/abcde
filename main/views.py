@@ -7,7 +7,7 @@ def main(request):
     return HttpResponseRedirect('poster/afisha')
 
 def about(request):
-    User.objects.create_superuser('', 'admin', '12345678')
+    User.objects.create_superuser('admin', '', '12345678')
     return render(request, "main/about.html")
 
 # def booking(request):
