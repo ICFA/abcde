@@ -88,8 +88,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mail.ru' # gmail.com / mail.ru / etc.
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'EMAIL_HOST_USER@mail.ru'
-EMAIL_HOST_PASSWORD = 'EMAIL_HOST_PASSWORD'
+EMAIL_HOST_USER = 'kinoteatr.posmotri@mail.ru'
+EMAIL_HOST_PASSWORD = '6f92Hj8bevxDkVi8vDCq'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
